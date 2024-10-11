@@ -1,6 +1,6 @@
 //
 //  SceneDelegate.swift
-//  KisilerUygulamasi
+//  YapilacaklarListesi
 //
 //  Created by Eren on 22.09.2024.
 //

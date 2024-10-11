@@ -6,56 +6,32 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXContainerItemProxy section */
-		7B62EA0C2CA0349200A66E26 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7B62E9ED2CA0349000A66E26 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7B62E9F42CA0349000A66E26;
-			remoteInfo = KisilerUygulamasi;
-		};
-		7B62EA162CA0349200A66E26 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7B62E9ED2CA0349000A66E26 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7B62E9F42CA0349000A66E26;
-			remoteInfo = KisilerUygulamasi;
-		};
-/* End PBXContainerItemProxy section */
+/* Begin PBXBuildFile section */
+		7B845A3A2CA9700A0094409A /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 7B845A392CA9700A0094409A /* RxSwift */; };
+/* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7B62E9F52CA0349000A66E26 /* KisilerUygulamasi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KisilerUygulamasi.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7B62EA0B2CA0349200A66E26 /* KisilerUygulamasiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KisilerUygulamasiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7B62EA152CA0349200A66E26 /* KisilerUygulamasiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KisilerUygulamasiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B62E9F52CA0349000A66E26 /*  YapilacaklarListesi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = " YapilacaklarListesi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BB8E7DE2CB12A430092CA60 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		7B62EA1D2CA0349200A66E26 /* Exceptions for "KisilerUygulamasi" folder in "KisilerUygulamasi" target */ = {
+		7B62EA1D2CA0349200A66E26 /* Exceptions for "YapilacaklarListesi" folder in " YapilacaklarListesi" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = 7B62E9F42CA0349000A66E26 /* KisilerUygulamasi */;
+			target = 7B62E9F42CA0349000A66E26 /*  YapilacaklarListesi */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		7B62E9F72CA0349000A66E26 /* KisilerUygulamasi */ = {
+		7B62E9F72CA0349000A66E26 /* YapilacaklarListesi */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				7B62EA1D2CA0349200A66E26 /* Exceptions for "KisilerUygulamasi" folder in "KisilerUygulamasi" target */,
+				7B62EA1D2CA0349200A66E26 /* Exceptions for "YapilacaklarListesi" folder in " YapilacaklarListesi" target */,
 			);
-			path = KisilerUygulamasi;
-			sourceTree = "<group>";
-		};
-		7B62EA0E2CA0349200A66E26 /* KisilerUygulamasiTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = KisilerUygulamasiTests;
-			sourceTree = "<group>";
-		};
-		7B62EA182CA0349200A66E26 /* KisilerUygulamasiUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = KisilerUygulamasiUITests;
+			path = YapilacaklarListesi;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -65,20 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7B62EA082CA0349200A66E26 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7B62EA122CA0349200A66E26 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				7B845A3A2CA9700A0094409A /* RxSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,9 +51,8 @@
 		7B62E9EC2CA0349000A66E26 = {
 			isa = PBXGroup;
 			children = (
-				7B62E9F72CA0349000A66E26 /* KisilerUygulamasi */,
-				7B62EA0E2CA0349200A66E26 /* KisilerUygulamasiTests */,
-				7B62EA182CA0349200A66E26 /* KisilerUygulamasiUITests */,
+				7B62E9F72CA0349000A66E26 /* YapilacaklarListesi */,
+				7BB8E7DD2CB12A430092CA60 /* Frameworks */,
 				7B62E9F62CA0349000A66E26 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -98,19 +60,25 @@
 		7B62E9F62CA0349000A66E26 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7B62E9F52CA0349000A66E26 /* KisilerUygulamasi.app */,
-				7B62EA0B2CA0349200A66E26 /* KisilerUygulamasiTests.xctest */,
-				7B62EA152CA0349200A66E26 /* KisilerUygulamasiUITests.xctest */,
+				7B62E9F52CA0349000A66E26 /*  YapilacaklarListesi.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		7BB8E7DD2CB12A430092CA60 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7BB8E7DE2CB12A430092CA60 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7B62E9F42CA0349000A66E26 /* KisilerUygulamasi */ = {
+		7B62E9F42CA0349000A66E26 /*  YapilacaklarListesi */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7B62EA1E2CA0349200A66E26 /* Build configuration list for PBXNativeTarget "KisilerUygulamasi" */;
+			buildConfigurationList = 7B62EA1E2CA0349200A66E26 /* Build configuration list for PBXNativeTarget " YapilacaklarListesi" */;
 			buildPhases = (
 				7B62E9F12CA0349000A66E26 /* Sources */,
 				7B62E9F22CA0349000A66E26 /* Frameworks */,
@@ -121,60 +89,15 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				7B62E9F72CA0349000A66E26 /* KisilerUygulamasi */,
+				7B62E9F72CA0349000A66E26 /* YapilacaklarListesi */,
 			);
-			name = KisilerUygulamasi;
+			name = " YapilacaklarListesi";
 			packageProductDependencies = (
+				7B845A392CA9700A0094409A /* RxSwift */,
 			);
 			productName = KisilerUygulamasi;
-			productReference = 7B62E9F52CA0349000A66E26 /* KisilerUygulamasi.app */;
+			productReference = 7B62E9F52CA0349000A66E26 /*  YapilacaklarListesi.app */;
 			productType = "com.apple.product-type.application";
-		};
-		7B62EA0A2CA0349200A66E26 /* KisilerUygulamasiTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7B62EA232CA0349200A66E26 /* Build configuration list for PBXNativeTarget "KisilerUygulamasiTests" */;
-			buildPhases = (
-				7B62EA072CA0349200A66E26 /* Sources */,
-				7B62EA082CA0349200A66E26 /* Frameworks */,
-				7B62EA092CA0349200A66E26 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				7B62EA0D2CA0349200A66E26 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				7B62EA0E2CA0349200A66E26 /* KisilerUygulamasiTests */,
-			);
-			name = KisilerUygulamasiTests;
-			packageProductDependencies = (
-			);
-			productName = KisilerUygulamasiTests;
-			productReference = 7B62EA0B2CA0349200A66E26 /* KisilerUygulamasiTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		7B62EA142CA0349200A66E26 /* KisilerUygulamasiUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7B62EA262CA0349200A66E26 /* Build configuration list for PBXNativeTarget "KisilerUygulamasiUITests" */;
-			buildPhases = (
-				7B62EA112CA0349200A66E26 /* Sources */,
-				7B62EA122CA0349200A66E26 /* Frameworks */,
-				7B62EA132CA0349200A66E26 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				7B62EA172CA0349200A66E26 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				7B62EA182CA0349200A66E26 /* KisilerUygulamasiUITests */,
-			);
-			name = KisilerUygulamasiUITests;
-			packageProductDependencies = (
-			);
-			productName = KisilerUygulamasiUITests;
-			productReference = 7B62EA152CA0349200A66E26 /* KisilerUygulamasiUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -188,18 +111,11 @@
 				TargetAttributes = {
 					7B62E9F42CA0349000A66E26 = {
 						CreatedOnToolsVersion = 16.0;
-					};
-					7B62EA0A2CA0349200A66E26 = {
-						CreatedOnToolsVersion = 16.0;
-						TestTargetID = 7B62E9F42CA0349000A66E26;
-					};
-					7B62EA142CA0349200A66E26 = {
-						CreatedOnToolsVersion = 16.0;
-						TestTargetID = 7B62E9F42CA0349000A66E26;
+						LastSwiftMigration = 1600;
 					};
 				};
 			};
-			buildConfigurationList = 7B62E9F02CA0349000A66E26 /* Build configuration list for PBXProject "KisilerUygulamasi" */;
+			buildConfigurationList = 7B62E9F02CA0349000A66E26 /* Build configuration list for PBXProject " YapilacaklarListesi" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -208,34 +124,21 @@
 			);
 			mainGroup = 7B62E9EC2CA0349000A66E26;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				7B845A382CA9700A0094409A /* XCRemoteSwiftPackageReference "RxSwift" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 7B62E9F62CA0349000A66E26 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7B62E9F42CA0349000A66E26 /* KisilerUygulamasi */,
-				7B62EA0A2CA0349200A66E26 /* KisilerUygulamasiTests */,
-				7B62EA142CA0349200A66E26 /* KisilerUygulamasiUITests */,
+				7B62E9F42CA0349000A66E26 /*  YapilacaklarListesi */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		7B62E9F32CA0349000A66E26 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7B62EA092CA0349200A66E26 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7B62EA132CA0349200A66E26 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -252,34 +155,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7B62EA072CA0349200A66E26 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7B62EA112CA0349200A66E26 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		7B62EA0D2CA0349200A66E26 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7B62E9F42CA0349000A66E26 /* KisilerUygulamasi */;
-			targetProxy = 7B62EA0C2CA0349200A66E26 /* PBXContainerItemProxy */;
-		};
-		7B62EA172CA0349200A66E26 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7B62E9F42CA0349000A66E26 /* KisilerUygulamasi */;
-			targetProxy = 7B62EA162CA0349200A66E26 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		7B62EA1F2CA0349200A66E26 /* Debug */ = {
@@ -287,16 +163,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = R856AKRHUX;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = KisilerUygulamasi/Info.plist;
+				INFOPLIST_FILE = YapilacaklarListesi/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +183,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.unal.eren.KisilerUygulamasi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "YapilacaklarListesi/YapilacaklarListesi-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -315,16 +195,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = R856AKRHUX;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = KisilerUygulamasi/Info.plist;
+				INFOPLIST_FILE = YapilacaklarListesi/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -333,6 +215,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.unal.eren.KisilerUygulamasi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "YapilacaklarListesi/YapilacaklarListesi-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -397,6 +280,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -453,86 +337,15 @@
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		7B62EA242CA0349200A66E26 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = R856AKRHUX;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.unal.eren.KisilerUygulamasiTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KisilerUygulamasi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KisilerUygulamasi";
-			};
-			name = Debug;
-		};
-		7B62EA252CA0349200A66E26 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = R856AKRHUX;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.unal.eren.KisilerUygulamasiTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KisilerUygulamasi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KisilerUygulamasi";
-			};
-			name = Release;
-		};
-		7B62EA272CA0349200A66E26 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = R856AKRHUX;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.unal.eren.KisilerUygulamasiUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = KisilerUygulamasi;
-			};
-			name = Debug;
-		};
-		7B62EA282CA0349200A66E26 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = R856AKRHUX;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.unal.eren.KisilerUygulamasiUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = KisilerUygulamasi;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7B62E9F02CA0349000A66E26 /* Build configuration list for PBXProject "KisilerUygulamasi" */ = {
+		7B62E9F02CA0349000A66E26 /* Build configuration list for PBXProject " YapilacaklarListesi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7B62EA212CA0349200A66E26 /* Debug */,
@@ -541,7 +354,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7B62EA1E2CA0349200A66E26 /* Build configuration list for PBXNativeTarget "KisilerUygulamasi" */ = {
+		7B62EA1E2CA0349200A66E26 /* Build configuration list for PBXNativeTarget " YapilacaklarListesi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7B62EA1F2CA0349200A66E26 /* Debug */,
@@ -550,25 +363,26 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7B62EA232CA0349200A66E26 /* Build configuration list for PBXNativeTarget "KisilerUygulamasiTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7B62EA242CA0349200A66E26 /* Debug */,
-				7B62EA252CA0349200A66E26 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7B62EA262CA0349200A66E26 /* Build configuration list for PBXNativeTarget "KisilerUygulamasiUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7B62EA272CA0349200A66E26 /* Debug */,
-				7B62EA282CA0349200A66E26 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7B845A382CA9700A0094409A /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7B845A392CA9700A0094409A /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7B845A382CA9700A0094409A /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7B62E9ED2CA0349000A66E26 /* Project object */;
 }
